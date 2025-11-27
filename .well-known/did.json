@@ -1,0 +1,16 @@
+{
+  "@context": [
+    "https://www.w3.org/ns/did/v1",
+    "https://w3id.org/security/suites/ed25519-2020/v1"
+  ],
+  "id": "did:web:anusree-j.github.io:dedi-did",
+  "alsoKnownAs": ["github-hosted-issuer"],
+  "verificationMethod": [{
+    "id": "did:web:anusree-j.github.io:dedi-did#key-0",
+    "type": "Ed25519VerificationKey2020",
+    "controller": "did:web:anusree-j.github.io:dedi-did",
+    "publicKeyMultibase": "z6MkkKJDkaCMKiHW9BXeVjkKvauVAoMQ24Q57hbZHX59fRBu"
+  }],
+  "authentication": ["did:web:anusree-j.github.io:dedi-did#key-0"],
+  "assertionMethod": ["did:web:anusree-j.github.io:dedi-did#key-0"]
+}
